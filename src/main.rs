@@ -1,8 +1,8 @@
 // mod vars;
-mod types;
+mod strings;
 
 fn main() {
-    types::run();
+    strings::run();
 
     //33:00
 }
