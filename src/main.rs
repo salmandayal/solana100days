@@ -1,8 +1,8 @@
 // mod vars;
-mod tuples;
+mod arrays;
 
 fn main() {
-    tuples::run();
+    arrays::run();
 
-    //45:00
+    //55:00
 }
