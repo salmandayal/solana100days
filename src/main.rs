@@ -1,8 +1,7 @@
 // mod vars;
-mod arrays;
+mod vectors;
 
 fn main() {
-    arrays::run();
-
+    vectors::run()
     //55:00
 }

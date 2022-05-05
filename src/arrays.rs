@@ -1,5 +1,3 @@
-use core::num;
-
 //Arrays - Fixed list where elements are the same data type
 //Vector- Growable arrays
 //Arrays are stack allocate
