@@ -4,7 +4,6 @@ use std::mem;
 pub fn run() {
     let mut numbers: Vec<i32> = vec![1, 2];
     let newVec: Vec<i64> = vec![1, 2, 3, 4, 5];
-    ass
 
     //Add on to vector
     numbers.push(3);
@@ -20,3 +19,4 @@ pub fn run() {
         println!("{}", number);
     }
 }
+//export PATH="/Users/mac/.local/share/solana/install/active_release/bin:$PATH"
