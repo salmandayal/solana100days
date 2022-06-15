@@ -22,5 +22,6 @@ pub fn run() {
     //My assumption to save a reference  we also define type with &
     //Slice doesn't know the length at compile time thats why we pass reference of the array
     let slice: &[i32] = &numbers[0..2]; //First value inclusive and last value exclusive
+    let new_slice: &[i32] = &numbers[1..=3]; //first and last index both are inclusive
     println!("Slice: {:?}", slice);
 }
