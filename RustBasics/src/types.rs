@@ -29,6 +29,5 @@ pub fn run() {
     let a1 = 'a'; // Single quote signifies a character - unicode character
 
     let face = '\u{1F600}'; //Unicode character
-    println!("{:?}", (is_active, x, y, is_greater, a1,face));
+    println!("{:?}", (is_active, x, y, is_greater, a1, face));
 }
- 

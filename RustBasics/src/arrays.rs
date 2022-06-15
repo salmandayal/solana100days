@@ -20,6 +20,7 @@ pub fn run() {
     println!("Array occupies:{}", mem::size_of_val(&numbers));
 
     //My assumption to save a reference  we also define type with &
-    let slice: &[i32] = &numbers[0..2];
+    //Slice doesn't know the length at compile time thats why we pass reference of the array
+    let slice: &[i32] = &numbers[0..2]; //First value inclusive and last value exclusive
     println!("Slice: {:?}", slice);
 }
