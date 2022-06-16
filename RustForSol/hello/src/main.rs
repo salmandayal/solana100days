@@ -1,4 +1,4 @@
-mod r#enum;
+mod result_ex;
 fn main() {
-  r#enum::enum_example();
+  result_ex::main();
 }
