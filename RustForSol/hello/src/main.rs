@@ -1,8 +1,4 @@
-
-mod condition;
+mod r#enum;
 fn main() {
-  condition::match_example();
-} 
-
-//32:16 - Struct
-
+  r#enum::enum_example();
+}
