@@ -22,6 +22,11 @@ macro_rules! build_fn {
     };
 }
 
+#[test]
+fn test_input() {
+    //[1,2,3]
+}
+
 macro_rules! exame {
     ($l:expr; and $r:expr) => {
         println!(
@@ -133,12 +138,13 @@ pub fn run() {
     // print!("{:?}", m);
 
     //Comma separated macro_rules!
-    // let m = new_map! {
-    //     "one" => 1
-    // };
+    let m = new_map! {
+        "one" => 1,
+        "two" => 2
+    };
     // print!("{:?}", m);
 
-    calc! {
-        eval 1*5
-    }
+    // calc! {
+    //     eval 1*5
+    // }
 }

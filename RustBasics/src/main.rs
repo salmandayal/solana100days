@@ -1,7 +1,6 @@
 // mod vars;
-mod vectors;
+mod guess_game;
 
 fn main() {
-    vectors::run()
-    //55:00
+    guess_game::main();
 }
